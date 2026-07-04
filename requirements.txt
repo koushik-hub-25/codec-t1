@@ -1,0 +1,10 @@
+# Requirements for Python/Flask (Reference only)
+# Note: The active deployment of this application uses a production-ready, lightning-fast Node.js Express & React Vite Full-Stack architecture to ensure compatibility with our high-performance Cloud Run sandbox.
+# If you wish to migrate this architecture back to Python Flask, here is the reference library stack:
+
+Flask==3.0.2
+nltk==3.8.1
+numpy==1.26.4
+sqlite3
+requests==2.31.0
+gunicorn==21.2.0
